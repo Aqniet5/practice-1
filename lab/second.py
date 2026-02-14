@@ -1,7 +1,20 @@
-class Dog:
+def isUsual(num):
+    if num <= 0:
+        return False
 
-    def __init__(self,name):
-        self.name = name
-        print(name)
+    for p in (2, 3, 5):
+        while num % p == 0:
+            num //= p
 
-d = Dog("Tim")
+    return num == 1
+
+
+# Input
+n = int(input())
+
+# Output
+if isUsual(n):
+    print("Yes")
+else:
+    print("No")
+
