@@ -1,0 +1,12 @@
+mystr = "banana"
+
+for x in mystr:
+  print(x)
+
+
+mytuple = ("apple", "banana", "cherry")
+myit = iter(mytuple)
+
+print(next(myit))
+print(next(myit))
+print(next(myit))
