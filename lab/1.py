@@ -1,7 +1,7 @@
-class Myclass:
-    def __init__(self):
-        self.elephant = "Calf"
-        self.shark = "Sharky"
-a = Myclass()
-for key,value in a.__dict__.items():
-    print(key,value)
+import re
+pattern = re.compile(r"^[a-z]+$")
+word = "hello"
+if pattern.search(word):
+    print('yes')
+else:
+    print('no')
