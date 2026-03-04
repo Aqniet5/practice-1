@@ -1,8 +1,7 @@
-import re
-#Akniyet_2008
-pattern = re.compile(r"^[^A-Za-z0-9\_]{1,10}$")
-word = '++++++++++'
-if pattern.search(word):
-    print("Done")
-else:
-    print("Not done")
+class Myclass:
+    def __init__(self):
+        self.elephant = "Calf"
+        self.shark = "Sharky"
+a = Myclass()
+for key,value in a.__dict__.items():
+    print(key,value)
