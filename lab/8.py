@@ -1,9 +1,25 @@
-import copy
-lists = [i**2 for i in range(1,11) if i % 2==0]
-for i in lists:
-    print(i,end=" ")
+# class Animals is declared
+class Animals:
+    
+    # constructor
+    def __init__(self):
+        
+        # keys are initialized with
+        # their respective values
+        self.lion = 'carnivore'
+        self.dog = 'omnivore'
+        self.giraffe = 'herbivore'
 
-list1 = lists[:]
-list1.append(5)
-for i in lists:
-    print(i,end=" ")
+    def printit(self):
+        print("Dictionary from the object fields\
+        belonging to the class Animals:")
+
+
+# object animal of class Animals
+animal = Animals()
+
+# calling printit method
+animal.printit()
+# calling attribute __dict__ on animal
+# object and printing it
+print(animal.__dict__)

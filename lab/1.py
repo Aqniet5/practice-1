@@ -1,8 +1,8 @@
-def counter(x):
-    for i in range(1,x+1):
-        yield i**2
-
-x = int(input())
-get_obj = counter(x)
-for i in get_obj:
-    print(i)
+import re
+#Akniyet_2008
+pattern = re.compile(r"^[^A-Za-z0-9\_]{1,10}$")
+word = '++++++++++'
+if pattern.search(word):
+    print("Done")
+else:
+    print("Not done")
