@@ -1,0 +1,4 @@
+name,email,birthday,group,phone,type
+"Marina Mukanova",marina@example.com,2000-01-01,Friend,87012223344,mobile
+"John Doe",john@work.com,1995-05-15,Work,87025556677,work
+"Alice Smith",alice@home.com,1998-10-20,Family,87771112233,home
