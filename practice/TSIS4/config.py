@@ -1,0 +1,15 @@
+WIDTH, HEIGHT = 800, 600
+CELL = 20
+TOP = 60#for the informations
+FPS = 60
+
+WHITE = (255, 255, 255)
+BLACK = (0, 0, 0)
+GRAY = (150, 150, 150)
+DARK = (30, 30, 30)
+RED = (220, 0, 0)
+DARK_RED = (120, 0, 0)
+GREEN = (0, 200, 0)
+BLUE = (0, 120, 255)
+YELLOW = (240, 220, 0)
+PURPLE = (160, 0, 200)
